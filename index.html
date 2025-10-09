@@ -7,29 +7,44 @@
     <meta name="description" content="An informative guide to all things Hogwarts and its students.">
     <meta name="keywords" content="Hogwarts, Harry Potter, J.K. Rowling, Wizarding World">
     <title>All About Hogwarts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Metal+Mania&display=swap" rel="stylesheet">
+    <!-- CSS Link Here -->
+     <link rel="stylesheet" href="css/hogwarts.css">
 </head>
 <body>
     <header>
-        <h1>Origins of Hogwarts</h1>
-        <p>Written by J.K Rowling, Hogwarts School for Witchcraft and Wizardry is the setting of her famous <q>Harry Potter</q> book series. The school was founded thousands of years ago by 4 powerful witches and wizards: Godric Gryffindor, Salazar Slytherin, Helga Hufflepuff, and Rowena Ravenclaw.</p>
-    <a href="https://www.harrypotter.com/">Visit the Harry Potter Website</a>
-    <p><a href="https://en.wikipedia.org/wiki/Harry_Potter">Learn more about Harry Potter on Wikipedia</a></p>
+        <h1>Origins of <span>Hogwarts</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#people">People</a></li>
+                <li><a href="#houses">Houses</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+        
     </header>
     <main>
+        <a  CLASS="out" href="https://www.harrypotter.com/">Visit the Harry Potter Website</a>
+    <p><a CLASS="out" href="https://en.wikipedia.org/wiki/Harry_Potter">Learn more about Harry Potter on Wikipedia</a></p>
         <!-- Section 1 Here -->
-        <section>
+         <article>
+        <section id="about">
             <!-- Section 1 Content Here -->
             <h2>About Hogwarts Castle</h2>
             <p>Located deep in the Scottish Highlands, Hogwarts castle is concealed by magic from the muggle population. Within the castle, magic makes the castle sentient, allowing staircases to move, room to appear, vanish and more.</p>
         </section>
         <!-- Section 2 Here -->
-         <section>
+         <section id="people">
             <!-- Section 2 Content Here -->
              <h2>The People of Hogwarts</h2>
              <p>The castle is not just filled with students, such as Harry Potter, Ron Weasley, and Hermione Granger, or teachers like Severus Snape and Minerva McGonagall. The castle is also home to a number of ghosts such as Nearly Headless Nick, The Bloody Baron, and Moaning Myrtle. House-elves also reside in the castle, running the kitchen and maintaining the castle.</p>
          </section>
          <!-- Ordered List -->
-         <section>
+         <section id="houses">
             <h2>The 4 Houses</h2>
             <ol>
                 <li><strong>Gryffindor:</strong> Value courage, bravery, and chivalry</li>
@@ -39,7 +54,7 @@
             </ol>
          </section>
         <!-- Unordered list -->
-          <section>
+          <section id="classes">
             <h2>Classes Offered</h2>
              <ul>
                 <li>Tranfiguration</li>
@@ -53,18 +68,22 @@
                 <li>Astronomy</li>
             </ul>
          </section>
-             <!-- Images Section -->
-              <section>
+
+         </article>
+         <aside>
+            <!-- Images Section -->
+              <div class="gallery">
+            <section id="gallery">
                 <h3>Gallery</h3>
                 <img src="images/HP1.jpg" alt="Outside of Hogwarts Castle" height="250">
                 <img src="images/HP2.jpeg" alt="Hogwarts Corridor" height="250">
                 <img src="images/HP3.avif" alt="The Four Houses Crest" height="250">
               </section>
-         </section>
+              </div>
+         </aside>
     </main>
 <footer>
     <p><strong>Author Info:</strong> Flavia Pajon is a freshman business student at the University of Miami Herbert Business School. She is from Miami, Florida originally born in Havana, Cuba. She loves the Harry Potter series and is a learning to make websites through the University’s Web Lab class.</p>
 </footer>
 </body>
-
 </html>
